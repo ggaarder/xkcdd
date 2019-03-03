@@ -72,12 +72,17 @@ Page({
         console.log(res.data);
         that.setData({
           currentxkcdimgsrc: res.data.img,
+          currentxkcdnum: res.data.num,
         });
       },
       fail(res) {
         console.log('failed')
       }
     })
+  },
+
+  explaincomic: function(e) {
+
   },
 
   onGetUserInfo: function(e) {
