@@ -7,6 +7,10 @@ page {
   justify-content: flex-start;
 }
 
+.flex-wrp {display: flex;}
+
+button {margin: 10px;}
+
 .bottom {
   position: fixed;
   bottom: 0;

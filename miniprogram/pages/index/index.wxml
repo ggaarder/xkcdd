@@ -3,7 +3,11 @@
 
   <image src="{{currentxkcdimgsrc}}" mode="widthFix"></image>
 
-  <button class="bottom" type="primary" bindtap="getrandomcomic">RANDOM COMIC</button>
+  <view class="flex-wrp bottom" style="flex-direction:row;">
+    <button type="primary" bindtap="getrandomcomic">RANDOM</button>
+    <button type="primary" bindtap="explaincomic" hidden>EXPLAIN</button>
+  </view>
+
 
   <!-- 用户 openid -->
   <view class="userinfo" hidden>
